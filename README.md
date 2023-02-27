@@ -1,2 +1,4 @@
-# pagePetShop-HTML-CSS-JS
-Página de cadastro de animais appPetShop - Utilizando o banco de dados Firebase Firestore - HTML, CSS, JS
+# pageRestauranteFirebase
+Operação CRUD Firebase - page Restaurante
+
+Hospedagem: https://bdpetshop-90019.web.app/

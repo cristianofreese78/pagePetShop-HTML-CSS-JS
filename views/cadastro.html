@@ -1,0 +1,74 @@
+<div class="container-fluid">    
+    <div class="row">
+        <div class="col-sm">
+            <form action="" id="cadastroAnimais" class="row g-3 mb-4" onsubmit="return false;">
+                <div class="col-md-12">
+                    <label for="nomeAnimal" class="form-label">Nome do animal</label>
+                    <input type="text" class="form-control" id="nomeAnimal" required>
+                </div>
+                
+                <div  class="col-md-8">
+                    <label for="especieAnimal" class="form-label">Espécie</label>
+                    <select class="form-control" id="especieAnimal" type="blur click"></select>
+                </div>
+        
+                <div class="col-md-2">
+                    <label for="pesoAnimal" class="form-label">Peso (kg)</label>
+                    <input type="text" class="form-control" id="pesoAnimal">
+                </div>
+                <div class="col-md-2">
+                    <label for="alturaAnimal" class="form-label">Altura (cm)</label>
+                    <input type="text" class="form-control" id="alturaAnimal">
+                </div>        
+               
+                <div  class="col-md-6">
+                    <label for="racaAnimal" class="form-label">Raça</label>
+                    <select class="form-control" id="racaAnimal"></select>
+                </div>
+        
+                <div  class="col-md-6">
+                    <label for="tipoPelPlumAnimal" class="form-label">Tipo Pelagem/Plumagem</label>
+                    <select class="form-control" id="tipoPelPlumAnimal"></select>
+                </div>
+        
+                <div  class="col-md-12">
+                    <label for="tratamentoAnimal" class="form-label">Descrição Tratamento</label>
+                    <select class="form-control" id="tratamentoAnimal"></select>
+                </div>
+                
+                <div class="col-8" id="botaoSubmit">
+                    <button type="submit" class="btn btn-primary">Enviar</button>  
+                </div>
+            </form>
+        </div>      
+    </div>
+
+    <div class="row">
+        <div id="tabelaAnimais">
+            <h4>Listagem de Animais</h4>
+        </div>
+    </div>
+
+    <div class="row justify-content-md-center">
+        <div class="col-sm">            
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Nome do animal</th>
+                        <th>Espécie</th>
+                        <th>Peso</th>
+                        <th>Altura</th>
+                        <th>Raça</th>
+                        <th>Pelagem/Plumagem</th>
+                        <th>Tratamento</th>
+                        <th>Ações</th>
+                    </tr>
+                 </thead>
+                <tbody> </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+    
+    

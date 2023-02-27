@@ -1,0 +1,136 @@
+/*DESENVOLVIDO POR CRISTIANO FREESE*/
+/*SELETORES UTILIZADOS PARA RESPONSIVIDADE E ESTILO DA PÁGINA*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Oswald:wght@200;400;700&family=Roboto:ital,wght@0,100;0,300;0,500;1,100;1,300;1,500&display=swap');
+*{ font-family: 'Roboto', sans-serif; }
+
+/* CONFIGURACOES PARA NAO COLAPSAR NAVBAR EM TELAS COM LARGURA INFERIOR A 990PX */ 
+/* CONFIGURACOES GERAIS DA NAVBAR, COMO POSIÇÃO DA LOGO, EFEITO HOVER, ALTURA DOS ITENS, CORES */ 
+@media only screen and (max-width: 899px) {
+  #introInicio {
+    background-image: url("../upload/logoInicio2.png");
+    height: 75vh;
+  }
+
+  li.nav-item a{
+    padding:58px 0px;
+    color: var(--blue);
+  }
+}
+
+@media screen and (min-width:990px) {
+  #introInicio {
+    background-image: url("../upload/logoInicio.png");
+    height: 100vh;
+  }
+}
+
+  .navbar {
+    background-color: var(--blue-light);
+  }  
+  
+  .navbar-brand{
+    position: left;
+    left:50%;
+    top:0;
+  }
+    
+  .nav-link{
+    transition:all 0.5s;
+  }
+    
+  .nav-link.active{
+    color: var(--blue-light2);
+  }
+    
+  .nav-link:hover{
+    color: var(--blue-light2);
+    transition:all 0.5s;
+  }
+    
+  .configNavbar{
+    height: 100px;
+  }
+    
+ 
+  
+
+
+/* CONFIGURAÇÕES GERAIS DO CONTEÚDO INJETADO EM MAIN */
+main{
+  padding: 10px 0px;
+  bottom: 100px;
+  background-color: white;
+  color: var(--blue);
+  ;
+}
+
+.btn {
+  width: 80px;
+}
+
+/* CONFIGURAÇÕES GERAIS DO FOOTER, COMO EFEITO HOVER, ALTURA DOS ITENS, CORES */
+.page-footer{
+  width: 100%;
+  bottom: 0px;
+  background-color: var(--blue-light);
+  padding:10px;
+  color: var(--blue);
+ }
+
+.footer-social a{
+  text-decoration:none;
+  color:var(--green);
+}
+
+.footer-social a i{
+  font-size: 38px;
+}
+
+.footer-social a:hover{
+  color: var(--green-light); 
+  transition:all 0.5s;
+}
+
+.footer-copyright a{
+  text-decoration:none;
+  color: var(--blue);
+}
+
+.footer-copyright a:hover{
+  color: var(--blue-light2);
+  transition:all 0.5s;
+}
+
+.footer-copyright{
+  font-size: 14px;
+}
+
+/* CONFIGURAÇÕES RELACIONADAS A TABELA DE ANIMAIS CADASTRADOS */
+.table-bordered{
+  color:#784C0C;
+}
+
+/* CONFIGURAÇÕES RELACIONADAS A PÁGINA DE CADASTRO*/
+#cadastroAnimais{
+  padding-top: 80px;
+}
+
+#botaoSubmit{
+  padding-top: 10px;
+}
+
+#tabelaAnimais {
+  padding-top: 50px;
+}
+
+/* CONFIGURAÇÕES GERAIS DE CORES*/
+:root {
+  --green: green;
+  --green-light: rgb(142, 190, 142)!important;
+  --blue: #190981;
+  --blue-light: #e3e8ee;
+  --blue-light2: #928fa8!important;
+  --dark-blue: #002d47;
+ 
+}
